@@ -24,6 +24,10 @@
     //Load our new MyNib .xib file
     MyClass* mc = [MyClass new];
     [[NSBundle mainBundle] loadNibNamed:@"MyNib" owner:mc options:nil];
+  	UILabel* lab = [mc valueForKey: @"theLabel"];
+  	[self.window.rootViewController.view addSubview: lab];
+  	lab.center = CGPointMake(100,100);
+  	lab.frame = CGRectIntegral(lab.frame);
     return YES;
 }
 
