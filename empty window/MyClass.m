@@ -10,6 +10,6 @@
 
 @implementation MyClass
 {
-
+  IBOutlet UILabel *theLabel;
 }
 @end
