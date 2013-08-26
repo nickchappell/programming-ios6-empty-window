@@ -10,6 +10,8 @@
 
 #import "ViewController.h"
 
+#import "MyClass.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,6 +21,9 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    //Load our new MyNib .xib file
+    MyClass* mc = [MyClass new];
+    [[NSBundle mainBundle] loadNibNamed:@"MyNib" owner:mc options:nil];
     return YES;
 }
 
