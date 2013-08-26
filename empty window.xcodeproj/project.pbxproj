@@ -53,6 +53,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0151770217CAD51F0071C537 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		01CFCFBB17CAA6DF0009B429 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				01CFCFD617CAA6DF0009B429 /* AppDelegate.h */,
+				0151770217CAD51F0071C537 /* Resources */,
 				01CFCFD717CAA6DF0009B429 /* AppDelegate.m */,
 				01CFCFDF17CAA6DF0009B429 /* ViewController.h */,
 				01CFCFE017CAA6DF0009B429 /* ViewController.m */,
@@ -298,6 +306,7 @@
 				01CFCFE917CAA6DF0009B429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
