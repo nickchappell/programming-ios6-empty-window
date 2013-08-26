@@ -60,9 +60,17 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		0151770317CAD7690071C537 /* test group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "test group";
+			sourceTree = "<group>";
+		};
 		01CFCFBB17CAA6DF0009B429 = {
 			isa = PBXGroup;
 			children = (
+				0151770317CAD7690071C537 /* test group */,
 				01CFCFCD17CAA6DF0009B429 /* empty window */,
 				01CFCFC617CAA6DF0009B429 /* Frameworks */,
 				01CFCFC517CAA6DF0009B429 /* Products */,
