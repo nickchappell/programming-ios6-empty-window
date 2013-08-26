@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01465C3317CB1F7600A9FE20 /* MyNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01465C3217CB1F7600A9FE20 /* MyNib.xib */; };
+		01465C3617CB1FBB00A9FE20 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 01465C3517CB1FBB00A9FE20 /* MyClass.m */; };
 		01CFCFC817CAA6DF0009B429 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CFCFC717CAA6DF0009B429 /* UIKit.framework */; };
 		01CFCFCA17CAA6DF0009B429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CFCFC917CAA6DF0009B429 /* Foundation.framework */; };
 		01CFCFCC17CAA6DF0009B429 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CFCFCB17CAA6DF0009B429 /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01465C3217CB1F7600A9FE20 /* MyNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNib.xib; sourceTree = "<group>"; };
+		01465C3417CB1FBB00A9FE20 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		01465C3517CB1FBB00A9FE20 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		01CFCFC417CAA6DF0009B429 /* empty window.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "empty window.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CFCFC717CAA6DF0009B429 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01CFCFC917CAA6DF0009B429 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +106,9 @@
 				01CFCFD617CAA6DF0009B429 /* AppDelegate.h */,
 				0151770217CAD51F0071C537 /* Resources */,
 				01CFCFD717CAA6DF0009B429 /* AppDelegate.m */,
+				01465C3217CB1F7600A9FE20 /* MyNib.xib */,
+				01465C3417CB1FBB00A9FE20 /* MyClass.h */,
+				01465C3517CB1FBB00A9FE20 /* MyClass.m */,
 				01CFCFDF17CAA6DF0009B429 /* ViewController.h */,
 				01CFCFE017CAA6DF0009B429 /* ViewController.m */,
 				01CFCFE217CAA6DF0009B429 /* ViewController.xib */,
@@ -179,6 +187,7 @@
 				01CFCFDC17CAA6DF0009B429 /* Default@2x.png in Resources */,
 				01CFCFDE17CAA6DF0009B429 /* Default-568h@2x.png in Resources */,
 				01CFCFE417CAA6DF0009B429 /* ViewController.xib in Resources */,
+				01465C3317CB1F7600A9FE20 /* MyNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +201,7 @@
 				01CFCFD417CAA6DF0009B429 /* main.m in Sources */,
 				01CFCFD817CAA6DF0009B429 /* AppDelegate.m in Sources */,
 				01CFCFE117CAA6DF0009B429 /* ViewController.m in Sources */,
+				01465C3617CB1FBB00A9FE20 /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
